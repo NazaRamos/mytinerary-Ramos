@@ -8,10 +8,10 @@ const Index = () => {
             
 
             <div className='min-h-[80vh] w-full md:min-h-[60vh] bg-slate-500 flex items-center justify-center flex-col p-5 gap-10 md:flex-row md:ps-14'>
-                <div className='w-full'>
+                <div className='max-[500px]:w-full w-2/3'>
                     <img className='w-full' src="../images/Hero.png" alt="" />
                 </div>
-                <div className='w-full flex items-center justify-center'>
+                <div className='max-[500px]:w-full w-2/3 flex items-center justify-center'>
                 <Link className='w-full flex items-center justify-center' to={"/cities"}>
                     <img className='hover:scale-110 transform duration-150 w-3/4 p-5' src="../images/MyTinerarypics.png" alt="" />
                 </Link>    

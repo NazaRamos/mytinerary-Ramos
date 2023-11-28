@@ -11,16 +11,16 @@ const Drawer = (props) => {
 
         <div className='flex flex-col w-full h-full items-center mt-10 gap-10 text-white'>
             <Link className='border-b-2 border-l-2 w-2/3' to={"/"}>
-            <h2 className='font-semibold ps-2 cursor-pointer hover:scale-110 transform duration-150'>Home</h2>
+            <h2 className='font-semibold ps-6 cursor-pointer hover:scale-110 transform duration-150'>Home</h2>
             </Link>
             <Link className='border-b-2 border-l-2 w-2/3' to={"/cities"}>
-            <h2 className='font-semibold ps-2 cursor-pointer hover:scale-110 transform duration-150'>Cities</h2>
+            <h2 className='font-semibold ps-6 cursor-pointer hover:scale-110 transform duration-150'>Cities</h2>
             </Link>
             <Link className='border-b-2 border-l-2 w-2/3' to={"/m&v"}>
-            <h2 className='font-semibold ps-2 cursor-pointer hover:scale-110 transform duration-150'>Our mission and vision</h2>
+            <h2 className='font-semibold ps-6 cursor-pointer hover:scale-110 transform duration-150'>Our mission and vision</h2>
             </Link>
             <Link className='border-b-2 border-l-2 w-2/3' to={"/location"}>
-            <h2 className='font-semibold ps-2 cursor-pointer hover:scale-110 transform duration-150'>Where to find us</h2>
+            <h2 className='font-semibold ps-6 cursor-pointer hover:scale-110 transform duration-150'>Where to find us</h2>
             </Link>
         </div>
     </div>
